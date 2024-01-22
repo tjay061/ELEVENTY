@@ -2,3 +2,8 @@ html {
     background: #080808;
     background-image: url(eleventy-sample/images/space);
   }
+
+  img {
+    height: auto; 
+    max-width: 100%;
+  }
