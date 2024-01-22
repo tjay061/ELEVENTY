@@ -1,6 +1,7 @@
 html {
     background: #080808;
     background-image: url(images/space.jpg);
+    background-size: cover;
   }
 
   body{
@@ -11,21 +12,32 @@ html {
   }
   
   header {
-    background: #000000;
+    
   }
 
   header h1 {
-    margin: -5px;
+    border-radius: 1%;
     text-align: center;
   }
 
-  header p {
-    margin: 5px;
-    margin-bottom: 0px;
-    text-align: center;
-  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    ;
+  } 
 
   img {
-    height: 50%; 
-    max-width: 50%;
+    height: 35%; 
+    max-width: 35%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+
+  .moon{
+    height: 15%; 
+    max-width: 15%;
+  }
+
