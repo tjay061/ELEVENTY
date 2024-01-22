@@ -11,15 +11,14 @@ html {
     color: rgb(255, 255, 255);
   }
   
-  header {
-    
-  }
-
   header h1 {
     border-radius: 1%;
     text-align: center;
   }
 
+  section {
+    
+  }
   .container {
     display: flex;
     flex-direction: row;
@@ -36,8 +35,8 @@ html {
     padding-right: 5%;
   }
 
-  .moon{
-    height: 15%; 
-    max-width: 15%;
+  .moon  {
+    height: 20%;
+    max-width: 20%;
   }
 
